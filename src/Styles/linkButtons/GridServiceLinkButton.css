@@ -1,0 +1,117 @@
+@import '../Root.css';
+
+.type_button_grid {
+    margin-top: 2rem;
+}
+
+.button_grid {
+    background-color: var(--azul_forte);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.button_grid:hover {
+    color: var(--gelo);
+}
+
+@media (max-width: 320px) {
+    .button_grid {
+        padding: 15px 5px;
+    }
+
+    .type_button_grid {
+        font-size: .8rem;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+    .button_grid {
+        padding: 15px 5px;
+    }
+
+    .type_button_grid {
+        font-size: .8rem;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .button_grid {
+        padding: 15px 5px;
+    }
+
+    .type_button_grid {
+        font-size: .8rem;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+    .button_grid {
+        padding: 15px 5px;
+    }
+
+    .type_button_grid {
+        font-size: .8rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+    .button_grid {
+        padding: 20px 10px;
+    }
+
+    .type_button_grid {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 768px) {
+    .button_grid {
+        padding: 15px 10px;
+    }
+
+    .type_button_grid {
+        font-size: .9rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .button_grid {
+        padding: 18px 10px;
+    }
+
+    .type_button_grid {
+        font-size: .9rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .button_grid {
+        padding: 20px 15px;
+    }
+
+    .type_button_grid {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1366px) {
+    .button_grid {
+        padding: 20px 15px;
+    }
+
+    .type_button_grid {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .button_grid {
+        padding: 20px 15px;
+    }
+
+    .type_button_grid {
+        font-size: 1rem;
+    }
+}
